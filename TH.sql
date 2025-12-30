@@ -3,7 +3,7 @@ use OnlineLearningSystem;
 
 create table Student (
     StudentID int primary key,
-    FullName nvarchar(100) not null,
+    FullName varchar(100) not null,
     DateOfBirth date,
     Email varchar(100) not null unique
 );
@@ -112,5 +112,6 @@ select * from Teacher;
 select * from Course;
 
 select * from Enrollment;
+
 
 select * from Result;
